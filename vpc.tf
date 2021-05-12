@@ -8,7 +8,7 @@ resource "aws_vpc" "vpc" {
   instance_tenancy = var.instance_tenancy
 
   tags = {
-    Name = "var.vpc_name-${terraform.workspace}-vpc"
+    Name = var.vpc_name"-${terraform.workspace}-vpc"
   }
 }
 
