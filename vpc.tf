@@ -9,7 +9,7 @@ resource "aws_vpc" "vpc" {
 
   tags = {
     Name        = "${var.vpc_name}-${terraform.workspace}-vpc"
-    Environment = "${terraform.workspace}-vpc"
+    Environment = terraform.workspace
   }
 }
 
