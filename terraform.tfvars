@@ -12,5 +12,5 @@ vpc_cidr = "10.0.0.0/16"
 instance_tenancy = "default"
 
 # VPC TAG NAME
-vpc_name = "SKYE"
+vpc_name = "skye"
 
